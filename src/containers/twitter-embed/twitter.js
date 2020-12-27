@@ -20,7 +20,7 @@ var widthScreen = window.screen.width;
 
 export default function Twitter() {
   const { isDark } = useContext(StyleContext);
-
+  if (twitterDetails.display)
   if (twitterDetails.userName) {
     return (
       <Suspense fallback={renderLoader()}>
@@ -45,4 +45,5 @@ export default function Twitter() {
   } else {
     return null;
   }
+  return null;
 }

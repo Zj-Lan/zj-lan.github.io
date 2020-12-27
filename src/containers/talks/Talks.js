@@ -7,6 +7,7 @@ import StyleContext from "../../contexts/StyleContext";
 
 export default function Talks() {
   const { isDark } = useContext(StyleContext);
+  if(talkSection.display)
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="talks">
@@ -40,4 +41,5 @@ export default function Talks() {
       </div>
     </Fade>
   );
+  return null;
 }
