@@ -303,8 +303,10 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  emailAddress: "saadpasta70@gmail.com",
+  number: "(709)222-5545",
+  emailAddress: "zlan@mun.ca",
+  location: "Canada",
+  hireable: "Yes", 
 };
 
 //Twitter Section
