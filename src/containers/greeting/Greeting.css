@@ -21,6 +21,10 @@
   color: #868e96 !important;
 }
 
+.dark-mode-subTitle {
+  color: #cccccc !important;
+}
+
 .greeting-main {
   display: flex;
 }

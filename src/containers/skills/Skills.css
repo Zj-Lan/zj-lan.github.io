@@ -20,6 +20,11 @@
   font-size: 56px;
   font-weight: 400;
 }
+
+.d-mode-text {
+  color: #cccccc;
+}
+
 .subTitle {
   color: #868e96;
 }

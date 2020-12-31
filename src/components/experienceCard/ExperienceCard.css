@@ -101,6 +101,9 @@
 .dark-mode-text {
     color:white !important;
 }
+.d-mode-text {
+    color: #cccccc !important;
+}
 .experience-text-date {
     text-align: center;
     color: black;

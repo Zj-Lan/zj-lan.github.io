@@ -6,6 +6,10 @@
   color: white;
 }
 
+.d-mode-text {
+  color: #cccccc;
+}
+
 .contact-div-main > * {
   flex: 1;
 }
@@ -26,7 +30,7 @@
 
 .contact-detail:hover,
 .contact-detail-email:hover {
-  color: black;
+  color: #6c63ff !important;
   text-shadow: 2px 1px 2px #b5b5b5;
   transition: all 0.3s;
 }
