@@ -128,6 +128,30 @@ const educationInfo = {
   ]
 }
 
+const projectInfo = {
+  display: true,
+  projects :[
+    {
+      title: "PreZoom(Presentation Software)",
+      desc: "Presentation software that combines features of PowerPoint, Prezi, and Keynote.",
+      img: require("./assets/images/projects/Color.gif"),
+      live: "",
+      code: "https://github.com/Zj-Lan/Java-Swing_PreZoom_Presentation_Software"
+    },
+    {
+      title: 2222222,
+      desc: "this is a test adjfahl alsjdfh alksjdnflaksjdfn alskjdfh.",
+      img: require("./assets/images/profile.jpg")
+    },
+    {
+      title: 3333333,
+      desc: "this is a test adjfahl alsjdfh alksjdnflaksjdfn alskjdfh.",
+      img: require("./assets/images/profile.jpg")
+    }
+    
+  ]
+}
+
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
@@ -315,4 +339,4 @@ const twitterDetails = {
   userName : "twitter", //Replace "twitter" with your twitter username without @
   display: false // Set true to display this section, defaults to false
 };
-export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, educationInfo, projectInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};

@@ -4,7 +4,7 @@ import Greeting from "./greeting/Greeting";
 import Skills from "./skills/Skills";
 import StackProgress from "./skillProgress/skillProgress";
 import WorkExperience from "./workExperience/WorkExperience";
-import Projects from "./projects/Projects";
+import Projects_zlan from "./projectsShow/ProjectsShow";
 import StartupProject from "./StartupProjects/StartupProject";
 import Achievement from "./achievement/Achievement";
 import Blogs from "./blogs/Blogs";
@@ -45,7 +45,7 @@ export default class Main extends Component {
           <Greeting />
           <Skills />
           <StackProgress />
-          <Projects />
+          <Projects_zlan />
           <WorkExperience />
           <Education />
           <StartupProject />
