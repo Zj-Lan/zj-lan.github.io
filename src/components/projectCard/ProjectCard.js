@@ -14,6 +14,7 @@ export default function ProjectCard({ project }) {
   };
   const { isDark } = useContext(StyleContext);
   return (
+    <div>
     <div className = "project-card">
       <Fade left duration={1000}>
       <div className="project-info">
@@ -23,14 +24,19 @@ export default function ProjectCard({ project }) {
                     {project.desc}
                   </p>
                 </div>
-                <div className="button-div">                
+                <div className="project-bullets">
+                <ul>
+                  <GetDescBullets descBullets={project.descBullets} />
+                </ul>
+              </div>
+                <div className="button-div">                 
                 <Button text="See Live"
                   newTab={true}
-                  href="">                  
+                  href={project.live}>                  
                 </Button>
                 <Button text="Source Code"
                   newTab={true}
-                  href="">
+                  href={project.code}>
                   
                 </Button>
                 </div>
@@ -45,10 +51,11 @@ export default function ProjectCard({ project }) {
                 </a>
               </div>
         </Fade>
-
-      {/* <Slide left duration={2000}>
-        <div className="project-card-border"></div>
-      </Slide> */}
+        
     </div>
+    <Slide left duration={2000}>
+    <div className="project-card-border"></div>
+  </Slide>
+  </div>
   );
 }

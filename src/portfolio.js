@@ -132,10 +132,11 @@ const projectInfo = {
   display: true,
   projects :[
     {
-      title: "PreZoom(Presentation Software)",
+      title: "PreZoom (Presentation software)",
       desc: "Presentation software that combines features of PowerPoint, Prezi, and Keynote.",
+      descBullets: ["Java","Swing","Trident"],
       img: require("./assets/images/projects/Color.gif"),
-      live: "",
+      live: "https://github.com/Zj-Lan/Java-Swing_PreZoom_Presentation_Software",
       code: "https://github.com/Zj-Lan/Java-Swing_PreZoom_Presentation_Software"
     },
     {

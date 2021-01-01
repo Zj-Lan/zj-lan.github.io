@@ -23,20 +23,29 @@
     -o-transition: width 0.6s ease-in-out;
     transition: width 0.6s ease-in-out;
   }
-  
+
   .project-head {
     display: flex;
     flex-direction: row;
   }
 
   .project-thumbnail {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     width: auto;
+    margin-left: 3rem;
+    transform: scale(1,1);
+    transition: all 1s ease 0s;
     }
 
   .project-thumbnail:hover {
-    border: 1px solid #d2d2d2;
+    transform: scale(1.1,1.1);
+    transition: all 1s ease 0s;
+  }
+
+  .project-info {
+    width: 30%;
+    margin-left: 3rem;
   }
 
   .button-div {
@@ -57,11 +66,34 @@
       flex-direction: column;
       padding-bottom: 10px;
     }
+    .project-thumbnail {
+      margin-left: 2rem;
+      margin-top: 1rem;
+    }
   }
   
   @media (max-width: 768px) {
     .project-card {
       text-align: center;
+      align-items: center;
+    }
+
+    .project-info {
+      width: 50%
+    }
+
+    .project-thumbnail {
+      margin-left: 2rem;
+      margin-top: 1rem;
+    }
+
+    .button-div {
+      justify-content: space-around;
+    }
+
+    .project-bullets > ul {
+      max-width: 80%;
+      margin: auto;
     }
   }
   
