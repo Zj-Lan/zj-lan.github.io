@@ -1,5 +1,5 @@
 import React from "react";
-import "./Progress.css";
+import "./skillProgress.css";
 import { techStack } from "../../portfolio";
 import { Fade } from "react-reveal";
 
@@ -26,8 +26,8 @@ export default function StackProgress() {
                     })}
                 </div>
 
-                <div className="skills-image">
-                    <img alt="Skills" src={require("../../assets/images/skillrate.svg")} />
+                <div className="skills-rate-image">
+                    <img alt="Skills-rate" src={require("../../assets/images/skillrate.svg")} />
                 </div>
 
             </div>
