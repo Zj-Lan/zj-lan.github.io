@@ -12,7 +12,7 @@
 }
 @font-face {
   font-family: 'Lucida Handwriting';
-  src: local('Lucida Handwriting'), url('./assets/fonts/LHANDW.TTF') format('ttf');
+  src: local('Lucida Handwriting'), url('./assets/fonts/LHANDW.TTF') format("truetype");
   font-display: swap;
 }
 code {
