@@ -51,10 +51,10 @@
 
 .greeting-image-div > img {
   max-width: 90%;
+  margin-top: 3rem;
+  margin-left: 3rem;
   height: auto;
   width: auto;
-  margin-left: 5rem;
-  margin-top: 3.5rem;
   border-radius: 50%;
   border: 0.5rem solid #6c63ff;
 }
