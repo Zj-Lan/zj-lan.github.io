@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9078def21e259390c6ecc398b6ed407a",
+    "revision": "bed314b77a62c7a2c4c540ea4a3cd6dc",
     "url": "/index.html"
   },
   {
-    "revision": "3e46a9a816df954bbfa7",
-    "url": "/static/css/3.3a26ebde.chunk.css"
+    "revision": "8e35a7f999977a389a93",
+    "url": "/static/css/3.00373544.chunk.css"
   },
   {
-    "revision": "e42dbe9ed6202877d223",
-    "url": "/static/css/main.0f28fed9.chunk.css"
+    "revision": "78142c4aa92cded9e8d4",
+    "url": "/static/css/main.d0b6e6d3.chunk.css"
   },
   {
     "revision": "cb57120631818bd2d503",
     "url": "/static/js/2.f618707d.chunk.js"
   },
   {
-    "revision": "3e46a9a816df954bbfa7",
+    "revision": "8e35a7f999977a389a93",
     "url": "/static/js/3.9d66e5d7.chunk.js"
   },
   {
-    "revision": "e42dbe9ed6202877d223",
-    "url": "/static/js/main.649baea1.chunk.js"
+    "revision": "78142c4aa92cded9e8d4",
+    "url": "/static/js/main.3e836816.chunk.js"
   },
   {
-    "revision": "9480eae9a40657676223",
-    "url": "/static/js/runtime-main.ab089814.js"
+    "revision": "d6f305257b45a0ae655f",
+    "url": "/static/js/runtime-main.3d90405d.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -152,11 +152,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/stanfordLogo.3b758ef5.png"
   },
   {
-    "revision": "39eff4a91b01e00a32cb78f3797eec88",
-    "url": "/static/media/talksCardBack.39eff4a9.svg"
+    "revision": "13780cdd0144cacdef25486e2c2503f8",
+    "url": "/static/media/talksCardBack.13780cdd.svg"
   },
   {
-    "revision": "7f0feeedda08cf7d68593454bc2e82b5",
-    "url": "/static/media/talksCardBackAlt.7f0feeed.svg"
+    "revision": "b48e86c9a956d3a3a32ca4a5ae05ddc7",
+    "url": "/static/media/talksCardBackAlt.b48e86c9.svg"
   }
 ]);
