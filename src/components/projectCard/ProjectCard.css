@@ -35,12 +35,12 @@
     width: auto;
     margin-left: 3rem;
     transform: scale(1,1);
-    transition: all 1s ease 0s;
+    transition: all 0.5s ease 0s;
     }
 
   .project-thumbnail:hover {
     transform: scale(1.1,1.1);
-    transition: all 1s ease 0s;
+    transition: all 0.5s ease 0s;
   }
 
   .project-info {

@@ -159,7 +159,7 @@ const projectInfo = {
     {
       title: "2D Platform Game",
       desc: "A 2D platform game built using Unity. Click \"SEE LIVE\" to play it online! ",
-      descBullets: ["C#","Unity3D"],
+      descBullets: ["C#","Unity"],
       img: require("./assets/images/projects/platform.gif"),
       live: "https://zj-lan.github.io/Unity_Platform-game/",
       code: "https://github.com/Zj-Lan/Unity_Platform-game"
@@ -167,7 +167,7 @@ const projectInfo = {
     {
       title: "Ball Adventure",
       desc: "A third-person game built using Unity. Click \"SEE LIVE\" to play it online! ",
-      descBullets: ["C#","Unity3D"],
+      descBullets: ["C#","Unity"],
       img: require("./assets/images/projects/ball.gif"),
       live: "https://zj-lan.github.io/Unity_Ball-Adventure/",
       code: "https://github.com/Zj-Lan/Unity_Ball-Adventure"
@@ -175,7 +175,7 @@ const projectInfo = {
     {
       title: "Shooting Game",
       desc: "A first-person shooting game built using Unity. Click \"SEE LIVE\" to play it online! ",
-      descBullets: ["C#","Unity3D"],
+      descBullets: ["C#","Unity"],
       img: require("./assets/images/projects/shoot.gif"),
       live: "https://zj-lan.github.io/Unity_Shooting-game/",
       code: "https://github.com/Zj-Lan/Unity_Shooting-game"

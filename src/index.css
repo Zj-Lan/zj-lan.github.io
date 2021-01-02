@@ -10,6 +10,11 @@
   src: local('Montserrat'), url('./assets/fonts/Montserrat-Regular.ttf') format('woff');
   font-display: swap;
 }
+@font-face {
+  font-family: 'Lucida Handwriting';
+  src: local('Lucida Handwriting'), url('./assets/fonts/LHANDW.TTF') format('ttf');
+  font-display: swap;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

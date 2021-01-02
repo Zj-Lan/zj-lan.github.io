@@ -9,11 +9,11 @@ export default function Footer() {
   return (
     <Fade bottom duration={1000} distance="5px">
       <div className="footer-div">
-        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          {emoji("Made by Zhijie Lan")}
+        <p className={isDark ? "d-mode footer-text" : "footer-text"}>
+          {"©️ 2021 Made by Zhijie Lan"}
         </p>
-        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Credit to{" "}
+        <p className={isDark ? "d-mode footer-text" : "footer-text"}>
+          Designed by{" "}
           <a href="https://github.com/saadpasta/developerFolio">
             developerFolio
           </a>
