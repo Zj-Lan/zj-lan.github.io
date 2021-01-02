@@ -44,7 +44,7 @@ export default function ProjectCard({ project }) {
       </Fade>
       <Fade right duration={1000}>
       <div className="project-image">
-                <a href="#!" target="_blank">
+                <a href={project.live != ""?project.live:project.code} target="_blank">
                   <div data-tilt className="project-thumbnail">
                     <img className="project-thumbnail" src={project.img} />
                   </div>

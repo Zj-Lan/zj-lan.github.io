@@ -9,21 +9,19 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Zhijie Lan",
   title: "Hi all, I'm Zj",
-  subTitle: emoji("A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+  subTitle: emoji("A passionate Software Developer 🚀 having 3 years experience of building Windows and Linux applications for the Air Traffic Control Automation System with C++ / Java / Qt and some other cool libraries and frameworks."),
+  resumeLink: "",
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Zj-Lan",
+  linkedin: "https://www.linkedin.com/in/zlan/",
+  gmail: "zlan@mun.ca",
+  gitlab: "https://gitlab.com/Lanzzzzz",
+  facebook: "https://www.facebook.com/lanzzj/",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
@@ -31,12 +29,13 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-  title: "About Me",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Tech Skills",
+  subTitle: "I'm a diligent quick-learner who keeps polishing skills and exploring cutting-edge technology.",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Develop well-designed object-oriented programs in C++, Java, etc."),
+    emoji("⚡ Analyze, visualize, or train data using Python, Pandas, NumPy, Matplotlib, and Jupyter Notebook."),
+    emoji("⚡ Develop video games using game engines such as Unity and Unreal."),
+    emoji("⚡ Learn and master new tech skills in a short time, such as learning web development skills (JavaScript, css, etc.) to deploy this portfolio site in 2~3 days.")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -44,7 +43,27 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "C++",
+      fontAwesomeClassname: "fab fa-cuttlefish"
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "Unity",
+      fontAwesomeClassname: "fab fa-unity"
+    },    
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },     
+    {
+      skillName: "Html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
@@ -52,49 +71,41 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
+    }, 
+    {
+      skillName: "Jupyter",
+      fontAwesomeClassname: "fas fa-book"
     },
     {
-      skillName: "sql-database",
+      skillName: "Machine Learning",
+      fontAwesomeClassname: "fas fa-brain"
+    }, 
+    {
+      skillName: "Data Analysis",
+      fontAwesomeClassname: "fas fa-chart-bar"
+    },
+    {
+      skillName: "Machine Vision",
+      fontAwesomeClassname: "fas fa-camera"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git-square"
+    },
+    {
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "Database",
       fontAwesomeClassname: "fas fa-database"
     },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -105,24 +116,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Memorial University of Newfoundland",
+      logo: require("./assets/images/MUN.png"),
+      subHeader: "Master of Applied Science in Computer Engineering",
+      duration: "Sep. 2019 - Apr. 2021",
+      desc: "GPA: 3.87/4.0"
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      schoolName: "Chengdu University of Information Technology",
+      logo: require("./assets/images/CUIT.png"),
+      subHeader: "Bachelor of Engineering in Communication Engineering",
+      duration: "Sep. 2011 - Jul. 2015",
+      desc: "GPA: 3.1/4.0",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Outstanding Leader of Student Union, 01/2015",
+        "Second Grade Scholarship, 10/2013",
+        "Third Grade Scholarship, 11/2012"
       ]
     }
   ]
@@ -132,22 +141,44 @@ const projectInfo = {
   display: true,
   projects :[
     {
-      title: "PreZoom (Presentation software)",
+      title: "Presentation software",
       desc: "Presentation software that combines features of PowerPoint, Prezi, and Keynote.",
       descBullets: ["Java","Swing","Trident"],
       img: require("./assets/images/projects/Color.gif"),
-      live: "https://github.com/Zj-Lan/Java-Swing_PreZoom_Presentation_Software",
+      live: "",
       code: "https://github.com/Zj-Lan/Java-Swing_PreZoom_Presentation_Software"
+    },    
+    {
+      title: "Plate Recognition",
+      desc: "A Machine Vision course project that can locate vehicle license Plates from images and recognize the characters.",
+      descBullets: ["C++","OpenCV", "Machine Vision", "Machine Learning"],
+      img: require("./assets/images/projects/recog.PNG"),
+      live: "",
+      code: "https://github.com/Zj-Lan/OpenCV_Vehicle-License-Plate-Recognition"
     },
     {
-      title: 2222222,
-      desc: "this is a test adjfahl alsjdfh alksjdnflaksjdfn alskjdfh.",
-      img: require("./assets/images/profile.jpg")
+      title: "2D Platform Game",
+      desc: "A 2D platform game built using Unity. Click \"SEE LIVE\" to play it online! ",
+      descBullets: ["C#","Unity3D"],
+      img: require("./assets/images/projects/platform.gif"),
+      live: "https://zj-lan.github.io/Unity_Platform-game/",
+      code: "https://github.com/Zj-Lan/Unity_Platform-game"
     },
     {
-      title: 3333333,
-      desc: "this is a test adjfahl alsjdfh alksjdnflaksjdfn alskjdfh.",
-      img: require("./assets/images/profile.jpg")
+      title: "Ball Adventure",
+      desc: "A third-person game built using Unity. Click \"SEE LIVE\" to play it online! ",
+      descBullets: ["C#","Unity3D"],
+      img: require("./assets/images/projects/ball.gif"),
+      live: "https://zj-lan.github.io/Unity_Ball-Adventure/",
+      code: "https://github.com/Zj-Lan/Unity_Ball-Adventure"
+    },
+    {
+      title: "Shooting Game",
+      desc: "A first-person shooting game built using Unity. Click \"SEE LIVE\" to play it online! ",
+      descBullets: ["C#","Unity3D"],
+      img: require("./assets/images/projects/shoot.gif"),
+      live: "https://zj-lan.github.io/Unity_Shooting-game/",
+      code: "https://github.com/Zj-Lan/Unity_Shooting-game"
     }
     
   ]
@@ -156,19 +187,23 @@ const projectInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: false, //Set it to true to show Proficiency Section
+  viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      Stack: "Object-oriented Programming (C++ / Java)",  //Insert stack or technology you have experience in
+      progressPercentage: "95%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
+      Stack: "Game Development (Unity / Unreal)",
       progressPercentage: "60%"
+    },
+    {
+      Stack: "Machine Learning (Python / Pandas / NumPy)",
+      progressPercentage: "55%"
+    },
+    {
+      Stack: "Web Development (JavaScript / html / css)",
+      progressPercentage: "39%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -182,28 +217,39 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      company: "Wisesoft",
+      companylogo: require("./assets/images/wisesoft.jpg"),
+      date: "Sep. 2015 – Jun. 2019",
+      desc: "Worked at the Civil Aviation Department which is responsible for the Air Traffic Control Automation System.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "The Best Employee of the Year 2016 (10 out of 500 employees).",
+        "Independently developed and maintained the Aircraft Situation Data Displays system, the core software of the department.",
+        "Engaged in software development, design, debugging, and testing of the C++ / Java / Qt code.",
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer Intern",
+      company: "Jiuzhou Electronic",
+      companylogo: require("./assets/images/jiuzhou.jpg"),
+      date: "Jul. 2014 – Aug. 2014",
+      desc: "Worked as a Software Engineer Intern at Software Department developing Intelligent Light System.",
+      descBullets: [
+        "Tested and maintained various software and complied related files.",
+        "Revised some of the functions and bugs of the software and program.",
+        "learned about code structure and regular workflow."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Quality Assurance Intern",
+      company: "IT Product Test Center",
+      companylogo: require("./assets/images/jiance.jpg"),
+      date: "Jul. 2013 – Aug. 2013",
+      desc: "Worked as a Quality Assurance Intern at Software Testing Division.",
+      descBullets: [
+        "Tested software to locate the bugs.",
+        "Wrote testing summaries and reports.",
+        "Assisted the colleagues in completing related tasks."
+      ]
     },
   ]
 };
@@ -215,7 +261,7 @@ const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
   showGithubProfile : "true",  // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 
@@ -223,7 +269,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME PROJECTS THAT I HAVE DONE IN WORK",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
@@ -234,7 +280,7 @@ const bigProjects = {
       link: "http://nextu.se/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Your Achievement Section Include Your Certification Talks and More

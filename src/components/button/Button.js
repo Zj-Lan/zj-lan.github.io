@@ -2,6 +2,7 @@ import React from "react";
 import "./Button.css";
 
 export default function Button({ text, className, href, newTab }) {
+  if (href != "")
   return (
     <div className={className}>
       <a className="main-button" href={href} target={newTab && "_blank"}>
@@ -9,4 +10,6 @@ export default function Button({ text, className, href, newTab }) {
       </a>
     </div>
   );
+
+  return null;
 }
