@@ -6,7 +6,7 @@ import { Fade } from "react-reveal";
 export default function StackProgress() {
     if(techStack.viewSkillBars){
         return (
-            <Fade bottom duration={1000} distance="20px">
+            <Fade bottom duration={500} distance="20px">
             <div className="skills-container">
 
                 <div className="skills-bar">
@@ -27,7 +27,7 @@ export default function StackProgress() {
                 </div>
 
                 <div className="skills-image">
-                    <img alt="Skills" src={require("../../assets/images/skill.svg")} />
+                    <img alt="Skills" src={require("../../assets/images/skillrate.svg")} />
                 </div>
 
             </div>
