@@ -16,7 +16,7 @@ export default function ProjectCard({ project }) {
   return (
     <div>
     <div className = "project-card">
-      <Fade left duration={1000}>
+      <Fade left duration={500}>
       <div className="project-info">
                 <h2 className="project-title">{project.title}</h2>
                 <div>
@@ -42,7 +42,7 @@ export default function ProjectCard({ project }) {
                 </div>
        </div>
       </Fade>
-      <Fade right duration={1000}>
+      <Fade right duration={500}>
       <div className="project-image">
                 <a href={project.live != ""?project.live:project.code} target="_blank">
                   <div data-tilt className="project-thumbnail">

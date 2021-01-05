@@ -10,7 +10,7 @@ const greeting = {
   username: "Zhijie Lan",
   title: "Hi all, I'm Zj",
   subTitle: emoji("A passionate Software Developer 🚀 having 3 years experience of building Windows and Linux applications for the Air Traffic Control Automation System with C++ / Java / Qt and some other cool libraries and frameworks."),
-  resumeLink: "",
+  resumeLink: "https://github.com/Zj-Lan/zj-lan.github.io/raw/master/src/assets/Resume-Zhijie_Lan.pdf",
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
