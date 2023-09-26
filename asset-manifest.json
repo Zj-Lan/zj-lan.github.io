@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.38c37346.chunk.css",
-    "main.js": "/static/js/main.49f76a9d.chunk.js",
-    "main.js.map": "/static/js/main.49f76a9d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ba0710db.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ba0710db.js.map",
-    "static/js/2.2697c5b1.chunk.js": "/static/js/2.2697c5b1.chunk.js",
-    "static/js/2.2697c5b1.chunk.js.map": "/static/js/2.2697c5b1.chunk.js.map",
+    "main.js": "/static/js/main.92132f63.chunk.js",
+    "main.js.map": "/static/js/main.92132f63.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1782e59a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1782e59a.js.map",
+    "static/js/2.41fc396d.chunk.js": "/static/js/2.41fc396d.chunk.js",
+    "static/js/2.41fc396d.chunk.js.map": "/static/js/2.41fc396d.chunk.js.map",
     "static/css/3.00373544.chunk.css": "/static/css/3.00373544.chunk.css",
-    "static/js/3.e36c0f88.chunk.js": "/static/js/3.e36c0f88.chunk.js",
-    "static/js/3.e36c0f88.chunk.js.map": "/static/js/3.e36c0f88.chunk.js.map",
+    "static/js/3.e4fe6e6c.chunk.js": "/static/js/3.e4fe6e6c.chunk.js",
+    "static/js/3.e4fe6e6c.chunk.js.map": "/static/js/3.e4fe6e6c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f3e073cc8d15054b18d44dc5257fb47d.js": "/precache-manifest.f3e073cc8d15054b18d44dc5257fb47d.js",
+    "precache-manifest.d539ce09e5d7e8488e9c230740a5879b.js": "/precache-manifest.d539ce09e5d7e8488e9c230740a5879b.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.00373544.chunk.css.map": "/static/css/3.00373544.chunk.css.map",
     "static/css/main.38c37346.chunk.css.map": "/static/css/main.38c37346.chunk.css.map",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/CUIT.png": "/static/media/CUIT.f1da33e5.png",
     "static/media/Color.gif": "/static/media/Color.b105fedc.gif",
+    "static/media/IK_GIF2.gif": "/static/media/IK_GIF2.360b3a31.gif",
     "static/media/airbnbLogo.png": "/static/media/airbnbLogo.c59720d6.png",
     "static/media/ball.gif": "/static/media/ball.4933303b.gif",
     "static/media/codeInLogo.webp": "/static/media/codeInLogo.47a7a717.webp",
@@ -31,6 +32,7 @@
     "static/media/jiuzhou.jpg": "/static/media/jiuzhou.aa80aea1.jpg",
     "static/media/jsFramework.svg": "/static/media/jsFramework.b05ae5b5.svg",
     "static/media/manOnTable.svg": "/static/media/manOnTable.52be3144.svg",
+    "static/media/morgan.jpg": "/static/media/morgan.fd6ad11b.jpg",
     "static/media/nextuLogo.webp": "/static/media/nextuLogo.829ad0a1.webp",
     "static/media/platform.gif": "/static/media/platform.ed7015c5.gif",
     "static/media/profile.jpg": "/static/media/profile.85851481.jpg",
@@ -49,9 +51,9 @@
     "static/media/thumb.png": "/static/media/thumb.4af3338b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ba0710db.js",
-    "static/js/2.2697c5b1.chunk.js",
+    "static/js/runtime-main.1782e59a.js",
+    "static/js/2.41fc396d.chunk.js",
     "static/css/main.38c37346.chunk.css",
-    "static/js/main.49f76a9d.chunk.js"
+    "static/js/main.92132f63.chunk.js"
   ]
 }
