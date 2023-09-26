@@ -9,7 +9,7 @@ export default function ProjectsShow() {
       <div className="projects-show-section" id="projects-show">
         
         <h1 className="projects-show-heading">
-          Projects
+          Personal Projects
         </h1>
         <div className="projects-show-card-container">
             {projectInfo.projects.map((project) => (

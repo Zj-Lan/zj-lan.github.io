@@ -8,8 +8,8 @@ import emoji from "react-easy-emoji";
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Zhijie Lan",
-  title: "Hi all, I'm Zj",
-  subTitle: emoji("A passionate Software Developer 🚀 having 3 years experience of building Windows and Linux applications for the Air Traffic Control Automation System with C++ / Java / Qt and some other cool libraries and frameworks."),
+  title: "Hi all, I'm Lan",
+  subTitle: emoji("A Software Developer 🚀 with over 5 years of professional experience in building Windows and Linux applications using C++ / Java / Python and various other cool frameworks and libraries.  I'm also a passionate gamer 🕹️ who delves into the world of game development, self-learning Unreal Engine / Unity to create my own immersive gaming experiences🌟."),
   resumeLink: "https://github.com/Zj-Lan/zj-lan.github.io/raw/master/src/assets/Resume-Zhijie_Lan.pdf",
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
@@ -212,9 +212,10 @@ const workExperiences = {
       company: "Morgan Stanley",
       companylogo: require("./assets/images/morgan.jpg"),
       date: "Jul. 2021 – Aug. 2023",
-      desc: "Worked on software for low-latency high-frequency trading services.",
+      desc: "Worked on C++ software for low-latency high-frequency trading systems.",
       descBullets: [
-        "developed C++ software utilizing algorithms and optimization techniques for efficient processing of trading orders",
+        "developed C++ software utilizing algorithms and optimization techniques for efficient processing of trading orders.",
+        "Collaborated within an agile environment for the ground-up development of 3 systems targeting new trading protocols.",
         "designed and implementated the automated testing frameworks in Python.",
         "Mentored newly onboarded junior developers.",
       ]
@@ -243,18 +244,18 @@ const workExperiences = {
         "learned about code structure and regular workflow."
       ]
     },
-    {
-      role: "Quality Assurance Intern",
-      company: "IT Product Test Center",
-      companylogo: require("./assets/images/jiance.jpg"),
-      date: "Jul. 2013 – Aug. 2013",
-      desc: "Worked as a Quality Assurance Intern at Software Testing Division.",
-      descBullets: [
-        "Tested software to locate the bugs.",
-        "Wrote testing summaries and reports.",
-        "Assisted the colleagues in completing related tasks."
-      ]
-    },
+    // {
+    //   role: "Quality Assurance Intern",
+    //   company: "IT Product Test Center",
+    //   companylogo: require("./assets/images/jiance.jpg"),
+    //   date: "Jul. 2013 – Aug. 2013",
+    //   desc: "Worked as a Quality Assurance Intern at Software Testing Division.",
+    //   descBullets: [
+    //     "Tested software to locate the bugs.",
+    //     "Wrote testing summaries and reports.",
+    //     "Assisted the colleagues in completing related tasks."
+    //   ]
+    // },
   ]
 };
 
@@ -381,7 +382,7 @@ const contactInfo = {
   number: "(709)222-5545",
   emailAddress: "zj.lan@outlook.com",
   location: "Toronto, ON, Canada",
-  hireable: "Yes", 
+  hireable: "Yes (updated October 2023)", 
 };
 
 //Twitter Section

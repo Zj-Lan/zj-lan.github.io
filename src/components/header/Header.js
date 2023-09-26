@@ -25,7 +25,7 @@ function Header() {
   const viewProjects = projectInfo.display;
 
   return (
-    <Headroom>
+    <Headroom className="headroom headroom--pinned">
       <header className={isDark ? 'dark-menu header' : 'header'}>
         <a href="" className="logo">
           <span className="grey-color"> &lt;</span>
@@ -41,19 +41,19 @@ function Header() {
           <span className={isDark ? 'navicon navicon-dark' : 'navicon'}></span>
         </label>
         <ul className={isDark ? 'dark-menu menu' : 'menu'}>
-          {viewSkills && (
-            <li>
-              <a href="#skills">Skills</a>
-            </li>
-          )}
           {viewProjects && (
             <li>
-              <a href="#projects-show">Projects</a>
+              <a href="#projects-show">Personal Projects</a>
             </li>
           )}
           {viewExperience && (
             <li>
               <a href="#experience">Work Experiences</a>
+            </li>
+          )}
+          {viewSkills && (
+            <li>
+              <a href="#skills">Skills</a>
             </li>
           )}
           {viewOpenSource && (
