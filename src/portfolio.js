@@ -19,9 +19,9 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/Zj-Lan",
   linkedin: "https://www.linkedin.com/in/zlan/",
-  gmail: "zlan@mun.ca",
+  gmail: "zj.lan@outlook.com",
   gitlab: "https://gitlab.com/Lanzzzzz",
-  facebook: "https://www.facebook.com/lanzzj/",
+  // facebook: "https://www.facebook.com/lanzzj/",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
@@ -33,8 +33,8 @@ const skillsSection = {
   subTitle: "I'm a diligent quick-learner who keeps polishing skills and exploring cutting-edge technology.",
   skills: [
     emoji("⚡ Develop well-designed object-oriented programs in C++, Java, etc."),
-    emoji("⚡ Analyze, visualize, or train data using Python, Pandas, NumPy, Matplotlib, and Jupyter Notebook."),
     emoji("⚡ Develop video games using game engines such as Unity and Unreal."),
+    emoji("⚡ Analyze, visualize, or train data using Python, Pandas, NumPy, Matplotlib, and Jupyter Notebook."),
     emoji("⚡ Learn and master new tech skills in a short time, such as learning web development skills (JavaScript, css, etc.) to deploy this portfolio site in 2~3 days.")
   ],
 
@@ -47,37 +47,21 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-cuttlefish"
     },
     {
-      skillName: "Java",
-      fontAwesomeClassname: "fab fa-java"
+      skillName: "Unreal Engine",
+      fontAwesomeClassname: "fas fa-gamepad"
     },
     {
       skillName: "Unity",
       fontAwesomeClassname: "fab fa-unity"
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },    
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },     
-    {
-      skillName: "Html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    }, 
     {
       skillName: "Jupyter",
       fontAwesomeClassname: "fas fa-book"
@@ -87,12 +71,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-brain"
     }, 
     {
-      skillName: "Data Analysis",
-      fontAwesomeClassname: "fas fa-chart-bar"
-    },
-    {
       skillName: "Machine Vision",
       fontAwesomeClassname: "fas fa-camera"
+    },
+    {
+      skillName: "Data Analysis",
+      fontAwesomeClassname: "fas fa-chart-bar"
     },
     {
       skillName: "git",
@@ -102,10 +86,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Linux",
       fontAwesomeClassname: "fab fa-linux"
     },
-    {
-      skillName: "Database",
-      fontAwesomeClassname: "fas fa-database"
-    },
+    // {
+    //   skillName: "Database",
+    //   fontAwesomeClassname: "fas fa-database"
+    // },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -119,13 +103,13 @@ const educationInfo = {
       schoolName: "Memorial University of Newfoundland",
       logo: require("./assets/images/MUN.png"),
       subHeader: "Master of Applied Science in Computer Engineering",
-      duration: "Sep. 2019 - Apr. 2021",
+      duration: "Sep. 2019 - May 2021",
       desc: "GPA: 3.87/4.0"
     },
     {
       schoolName: "Chengdu University of Information Technology",
       logo: require("./assets/images/CUIT.png"),
-      subHeader: "Bachelor of Engineering in Communication Engineering",
+      subHeader: "Bachelor of Engineering in Telecommunications Engineering",
       duration: "Sep. 2011 - Jul. 2015",
       desc: "GPA: 3.1/4.0",
       descBullets: [
@@ -141,8 +125,8 @@ const projectInfo = {
   display: true,
   projects :[
     {
-      title: "Presentation software",
-      desc: "Presentation software that combines features of PowerPoint, Prezi, and Keynote.",
+      title: "Animated Presentation",
+      desc: "Presentation software that implements and improves the animation features of PowerPoint, Prezi, and Keynote.",
       descBullets: ["Java","Swing","Trident"],
       img: require("./assets/images/projects/Color.gif"),
       live: "",
@@ -150,11 +134,19 @@ const projectInfo = {
     },    
     {
       title: "Plate Recognition",
-      desc: "A Machine Vision course project that can locate vehicle license Plates from images and recognize the characters.",
+      desc: "A Machine Vision project that can locate vehicle license Plates from images and recognize the characters.",
       descBullets: ["C++","OpenCV", "Machine Vision", "Machine Learning"],
       img: require("./assets/images/projects/recog.PNG"),
       live: "",
       code: "https://github.com/Zj-Lan/OpenCV_Vehicle-License-Plate-Recognition"
+    },
+    {
+      title: "Inverse Kinematics 2D",
+      desc: "A simple implementation of Inverse Kinematics in 2D.",
+      descBullets: ["C++","OpenCV", "Game Development", "Inverse Kinematics"],
+      img: require("./assets/images/projects/IK_GIF2.gif"),
+      live: "",
+      code: "https://github.com/Zj-Lan/Inverse-Kinematics-2D"
     },
     {
       title: "2D Platform Game",
@@ -195,11 +187,11 @@ const techStack = {
     },
     {
       Stack: "Game Development (Unity / Unreal)",
-      progressPercentage: "60%"
+      progressPercentage: "75%"
     },
     {
       Stack: "Machine Learning (Python / Pandas / NumPy)",
-      progressPercentage: "55%"
+      progressPercentage: "60%"
     },
     {
       Stack: "Web Development (JavaScript / html / css)",
@@ -215,6 +207,18 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "C++ Developer",
+      company: "Morgan Stanley",
+      companylogo: require("./assets/images/morgan.jpg"),
+      date: "Jul. 2021 – Aug. 2023",
+      desc: "Worked on software for low-latency high-frequency trading services.",
+      descBullets: [
+        "developed C++ software utilizing algorithms and optimization techniques for efficient processing of trading orders",
+        "designed and implementated the automated testing frameworks in Python.",
+        "Mentored newly onboarded junior developers.",
+      ]
+    },
     {
       role: "Software Engineer",
       company: "Wisesoft",
@@ -375,8 +379,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "(709)222-5545",
-  emailAddress: "zlan@mun.ca",
-  location: "Canada",
+  emailAddress: "zj.lan@outlook.com",
+  location: "Toronto, ON, Canada",
   hireable: "Yes", 
 };
 

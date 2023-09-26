@@ -43,11 +43,11 @@ export default class Main extends Component {
         >
           <Header />
           <Greeting />
-          <Skills />
-          <StackProgress />
           <Projects_zlan />
           <WorkExperience />
           <Education />
+          <Skills />
+          <StackProgress />
           <StartupProject />
           <Achievement />
           <Blogs />
