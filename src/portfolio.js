@@ -133,12 +133,12 @@ const projectInfo = {
       code: "https://github.com/Zj-Lan/Java-Swing_PreZoom_Presentation_Software"
     },    
     {
-      title: "Plate Recognition",
-      desc: "A Machine Vision project that can locate vehicle license Plates from images and recognize the characters.",
-      descBullets: ["C++","OpenCV", "Machine Vision", "Machine Learning"],
-      img: require("./assets/images/projects/recog.PNG"),
+      title: "Cartoon Tank",
+      desc: "A 3rd person shooting game with physics simulation",
+      descBullets: ["C++","Unreal Engine 5"],
+      img: require("./assets/images/projects/tank.gif"),
       live: "",
-      code: "https://github.com/Zj-Lan/OpenCV_Vehicle-License-Plate-Recognition"
+      code: "https://github.com/Zj-Lan/UE5-Cartoon_Tank"
     },
     {
       title: "Inverse Kinematics 2D",
@@ -171,8 +171,15 @@ const projectInfo = {
       img: require("./assets/images/projects/shoot.gif"),
       live: "https://zj-lan.github.io/Unity_Shooting-game/",
       code: "https://github.com/Zj-Lan/Unity_Shooting-game"
-    }
-    
+    },
+    {
+      title: "Plate Recognition",
+      desc: "A Machine Vision project that can locate vehicle license Plates from images and recognize the characters.",
+      descBullets: ["C++","OpenCV", "Machine Vision", "Machine Learning"],
+      img: require("./assets/images/projects/recog.PNG"),
+      live: "",
+      code: "https://github.com/Zj-Lan/OpenCV_Vehicle-License-Plate-Recognition"
+    }    
   ]
 }
 
