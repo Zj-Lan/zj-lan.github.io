@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.38c37346.chunk.css",
-    "main.js": "/static/js/main.d067438c.chunk.js",
-    "main.js.map": "/static/js/main.d067438c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.93d01f38.js",
-    "runtime-main.js.map": "/static/js/runtime-main.93d01f38.js.map",
-    "static/js/2.41fcc428.chunk.js": "/static/js/2.41fcc428.chunk.js",
-    "static/js/2.41fcc428.chunk.js.map": "/static/js/2.41fcc428.chunk.js.map",
+    "main.js": "/static/js/main.6d67871e.chunk.js",
+    "main.js.map": "/static/js/main.6d67871e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1782e59a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1782e59a.js.map",
+    "static/js/2.f8f867d9.chunk.js": "/static/js/2.f8f867d9.chunk.js",
+    "static/js/2.f8f867d9.chunk.js.map": "/static/js/2.f8f867d9.chunk.js.map",
     "static/css/3.00373544.chunk.css": "/static/css/3.00373544.chunk.css",
-    "static/js/3.f3954867.chunk.js": "/static/js/3.f3954867.chunk.js",
-    "static/js/3.f3954867.chunk.js.map": "/static/js/3.f3954867.chunk.js.map",
+    "static/js/3.e4fe6e6c.chunk.js": "/static/js/3.e4fe6e6c.chunk.js",
+    "static/js/3.e4fe6e6c.chunk.js.map": "/static/js/3.e4fe6e6c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9b9b395284d52dede62e45c441582421.js": "/precache-manifest.9b9b395284d52dede62e45c441582421.js",
+    "precache-manifest.1cd6d39cf13995706d22e9f0ec0d3b99.js": "/precache-manifest.1cd6d39cf13995706d22e9f0ec0d3b99.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.00373544.chunk.css.map": "/static/css/3.00373544.chunk.css.map",
     "static/css/main.38c37346.chunk.css.map": "/static/css/main.38c37346.chunk.css.map",
@@ -48,12 +48,13 @@
     "static/media/stanfordLogo.png": "/static/media/stanfordLogo.3b758ef5.png",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.13780cdd.svg",
     "static/media/talksCardBackAlt.svg": "/static/media/talksCardBackAlt.b48e86c9.svg",
+    "static/media/tank.gif": "/static/media/tank.a60d5ca0.gif",
     "static/media/thumb.png": "/static/media/thumb.4af3338b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.93d01f38.js",
-    "static/js/2.41fcc428.chunk.js",
+    "static/js/runtime-main.1782e59a.js",
+    "static/js/2.f8f867d9.chunk.js",
     "static/css/main.38c37346.chunk.css",
-    "static/js/main.d067438c.chunk.js"
+    "static/js/main.6d67871e.chunk.js"
   ]
 }
