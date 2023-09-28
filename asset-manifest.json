@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.38c37346.chunk.css",
-    "main.js": "/static/js/main.6d67871e.chunk.js",
-    "main.js.map": "/static/js/main.6d67871e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1782e59a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1782e59a.js.map",
-    "static/js/2.f8f867d9.chunk.js": "/static/js/2.f8f867d9.chunk.js",
-    "static/js/2.f8f867d9.chunk.js.map": "/static/js/2.f8f867d9.chunk.js.map",
+    "main.js": "/static/js/main.ca987a48.chunk.js",
+    "main.js.map": "/static/js/main.ca987a48.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6d0867dc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6d0867dc.js.map",
+    "static/js/2.f5e57d32.chunk.js": "/static/js/2.f5e57d32.chunk.js",
+    "static/js/2.f5e57d32.chunk.js.map": "/static/js/2.f5e57d32.chunk.js.map",
     "static/css/3.00373544.chunk.css": "/static/css/3.00373544.chunk.css",
-    "static/js/3.e4fe6e6c.chunk.js": "/static/js/3.e4fe6e6c.chunk.js",
-    "static/js/3.e4fe6e6c.chunk.js.map": "/static/js/3.e4fe6e6c.chunk.js.map",
+    "static/js/3.9faf6135.chunk.js": "/static/js/3.9faf6135.chunk.js",
+    "static/js/3.9faf6135.chunk.js.map": "/static/js/3.9faf6135.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1cd6d39cf13995706d22e9f0ec0d3b99.js": "/precache-manifest.1cd6d39cf13995706d22e9f0ec0d3b99.js",
+    "precache-manifest.1a7f181831b17abac4a33da89a577157.js": "/precache-manifest.1a7f181831b17abac4a33da89a577157.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.00373544.chunk.css.map": "/static/css/3.00373544.chunk.css.map",
     "static/css/main.38c37346.chunk.css.map": "/static/css/main.38c37346.chunk.css.map",
@@ -42,6 +42,7 @@
     "static/media/quoraLogo.png": "/static/media/quoraLogo.4b2938b9.png",
     "static/media/recog.PNG": "/static/media/recog.9e0f3507.PNG",
     "static/media/saayaHealthLogo.webp": "/static/media/saayaHealthLogo.25018d29.webp",
+    "static/media/scifi.webm": "/static/media/scifi.df380d58.webm",
     "static/media/shoot.gif": "/static/media/shoot.d5382d11.gif",
     "static/media/skill.svg": "/static/media/skill.34409398.svg",
     "static/media/skillrate.svg": "/static/media/skillrate.9ca99697.svg",
@@ -52,9 +53,9 @@
     "static/media/thumb.png": "/static/media/thumb.4af3338b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1782e59a.js",
-    "static/js/2.f8f867d9.chunk.js",
+    "static/js/runtime-main.6d0867dc.js",
+    "static/js/2.f5e57d32.chunk.js",
     "static/css/main.38c37346.chunk.css",
-    "static/js/main.6d67871e.chunk.js"
+    "static/js/main.ca987a48.chunk.js"
   ]
 }
