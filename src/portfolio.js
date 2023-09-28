@@ -134,7 +134,7 @@ const projectInfo = {
     },
     {
       title: "Animated Presentation Canvas",
-      desc: "Presentation software that implements and improves the animation features of PowerPoint, Prezi, and Keynote.",
+      desc: "Presentation software that improves and implements the animation features of PowerPoint, Prezi, and Keynote.",
       descBullets: ["Java","Swing","Trident"],
       img: require("./assets/images/projects/Color.gif"),
       live: "",
@@ -155,6 +155,22 @@ const projectInfo = {
       img: require("./assets/images/projects/scifi.gif"),
       live: "",
       code: "https://github.com/Zj-Lan/UE5-SciFi_Shooting"
+    },
+    {
+      title: "Subway Escape",
+      desc: "A 1st person puzzle game using realistic AAA quality assets.",
+      descBullets: ["C++","Unreal Engine 5"],
+      img: require("./assets/images/projects/subway.gif"),
+      live: "",
+      code: "https://github.com/Zj-Lan/UE5-Subway_Escape"
+    },
+    {
+      title: "Plate Recognition",
+      desc: "A Machine Vision project that can locate vehicle license Plates from images and recognize the characters.",
+      descBullets: ["C++","OpenCV", "Machine Vision", "Machine Learning"],
+      img: require("./assets/images/projects/recog.PNG"),
+      live: "",
+      code: "https://github.com/Zj-Lan/OpenCV_Vehicle-License-Plate-Recognition"
     },
     {
       title: "2D Platform Game",
@@ -179,15 +195,7 @@ const projectInfo = {
       img: require("./assets/images/projects/shoot.gif"),
       live: "https://zj-lan.github.io/Unity_Shooting-game/",
       code: "https://github.com/Zj-Lan/Unity_Shooting-game"
-    },
-    {
-      title: "Plate Recognition",
-      desc: "A Machine Vision project that can locate vehicle license Plates from images and recognize the characters.",
-      descBullets: ["C++","OpenCV", "Machine Vision", "Machine Learning"],
-      img: require("./assets/images/projects/recog.PNG"),
-      live: "",
-      code: "https://github.com/Zj-Lan/OpenCV_Vehicle-License-Plate-Recognition"
-    }    
+    }
   ]
 }
 
