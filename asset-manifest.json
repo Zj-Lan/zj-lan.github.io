@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.38c37346.chunk.css",
-    "main.js": "/static/js/main.b4f904a6.chunk.js",
-    "main.js.map": "/static/js/main.b4f904a6.chunk.js.map",
+    "main.js": "/static/js/main.ed2d23d3.chunk.js",
+    "main.js.map": "/static/js/main.ed2d23d3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6d0867dc.js",
     "runtime-main.js.map": "/static/js/runtime-main.6d0867dc.js.map",
     "static/js/2.f5e57d32.chunk.js": "/static/js/2.f5e57d32.chunk.js",
@@ -11,7 +11,7 @@
     "static/js/3.9faf6135.chunk.js": "/static/js/3.9faf6135.chunk.js",
     "static/js/3.9faf6135.chunk.js.map": "/static/js/3.9faf6135.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9bdc648f4831cc43662218c842178ab7.js": "/precache-manifest.9bdc648f4831cc43662218c842178ab7.js",
+    "precache-manifest.b9cd393cb2d2efe60088e9f9f1c8a2d5.js": "/precache-manifest.b9cd393cb2d2efe60088e9f9f1c8a2d5.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.00373544.chunk.css.map": "/static/css/3.00373544.chunk.css.map",
     "static/css/main.38c37346.chunk.css.map": "/static/css/main.38c37346.chunk.css.map",
@@ -42,7 +42,7 @@
     "static/media/quoraLogo.png": "/static/media/quoraLogo.4b2938b9.png",
     "static/media/recog.PNG": "/static/media/recog.9e0f3507.PNG",
     "static/media/saayaHealthLogo.webp": "/static/media/saayaHealthLogo.25018d29.webp",
-    "static/media/scifi.webm": "/static/media/scifi.df380d58.webm",
+    "static/media/scifi.gif": "/static/media/scifi.9eacc476.gif",
     "static/media/shoot.gif": "/static/media/shoot.d5382d11.gif",
     "static/media/skill.svg": "/static/media/skill.34409398.svg",
     "static/media/skillrate.svg": "/static/media/skillrate.9ca99697.svg",
@@ -56,6 +56,6 @@
     "static/js/runtime-main.6d0867dc.js",
     "static/js/2.f5e57d32.chunk.js",
     "static/css/main.38c37346.chunk.css",
-    "static/js/main.b4f904a6.chunk.js"
+    "static/js/main.ed2d23d3.chunk.js"
   ]
 }
