@@ -125,7 +125,15 @@ const projectInfo = {
   display: true,
   projects :[
     {
-      title: "Animated Presentation",
+      title: "Cartoon Tank",
+      desc: "A 3rd person shooting game with physics simulation for all objects and searching/attacking AI for enemies.",
+      descBullets: ["C++","Unreal Engine 5"],
+      img: require("./assets/images/projects/tank.gif"),
+      live: "",
+      code: "https://github.com/Zj-Lan/UE5-Cartoon_Tank"
+    },
+    {
+      title: "Animated Presentation Canvas",
       desc: "Presentation software that implements and improves the animation features of PowerPoint, Prezi, and Keynote.",
       descBullets: ["Java","Swing","Trident"],
       img: require("./assets/images/projects/Color.gif"),
@@ -133,20 +141,20 @@ const projectInfo = {
       code: "https://github.com/Zj-Lan/Java-Swing_PreZoom_Presentation_Software"
     },    
     {
-      title: "Cartoon Tank",
-      desc: "A 3rd person shooting game with physics simulation",
-      descBullets: ["C++","Unreal Engine 5"],
-      img: require("./assets/images/projects/tank.gif"),
-      live: "",
-      code: "https://github.com/Zj-Lan/UE5-Cartoon_Tank"
-    },
-    {
       title: "Inverse Kinematics 2D",
       desc: "A simple implementation of Inverse Kinematics in 2D.",
       descBullets: ["C++","OpenCV", "Game Development", "Inverse Kinematics"],
       img: require("./assets/images/projects/IK_GIF2.gif"),
       live: "",
       code: "https://github.com/Zj-Lan/Inverse-Kinematics-2D"
+    },
+    {
+      title: "SciFi Shooting",
+      desc: "A 3rd person shooting game with animation blend spaces for movements/actions and patrolling/attacking AI for enemies.",
+      descBullets: ["C++","Unreal Engine 5"],
+      img: require("./assets/images/projects/scifi.gif"),
+      live: "",
+      code: "https://github.com/Zj-Lan/UE5-SciFi_Shooting"
     },
     {
       title: "2D Platform Game",
@@ -222,7 +230,7 @@ const workExperiences = {
       desc: "Worked on C++ software for low-latency high-frequency trading systems.",
       descBullets: [
         "developed C++ software utilizing algorithms and optimization techniques for efficient processing of trading orders.",
-        "Collaborated within an agile environment for the ground-up development of 3 systems targeting new trading protocols.",
+        "Collaborated within an agile environment for the ground-up development of trading systems targeting new trading protocols.",
         "designed and implementated the automated testing frameworks in Python.",
         "Mentored newly onboarded junior developers.",
       ]
@@ -232,11 +240,11 @@ const workExperiences = {
       company: "Wisesoft",
       companylogo: require("./assets/images/wisesoft.jpg"),
       date: "Sep. 2015 – Jun. 2019",
-      desc: "Worked at the Civil Aviation Department which is responsible for the Air Traffic Control Automation System.",
-      descBullets: [
+      desc: "Worked on the Air Traffic Control Automation System at the Civil Aviation Department.",
+      descBullets: [        
+        "Independently developed and maintained Aircraft Situation Data Displays system, the core software of the department.",
+        "Engaged in software development, design, debugging, and testing of the C++ / Java code.",
         "The Best Employee of the Year 2016 (10 out of 500 employees).",
-        "Independently developed and maintained the Aircraft Situation Data Displays system, the core software of the department.",
-        "Engaged in software development, design, debugging, and testing of the C++ / Java / Qt code.",
       ]
     },
     {
