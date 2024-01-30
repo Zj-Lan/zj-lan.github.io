@@ -404,8 +404,8 @@ const contactInfo = {
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "(709)222-5545",
   emailAddress: "zj.lan@outlook.com",
-  location: "Toronto, ON, Canada",
-  hireable: "Yes (updated October 2023)", 
+  location: "Canada",
+  hireable: "No", 
 };
 
 //Twitter Section
