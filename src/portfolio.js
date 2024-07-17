@@ -231,6 +231,14 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Gameplay Engineer",
+      company: "The Coalition, Microsoft",
+      companylogo: require("./assets/images/tc.jpg"),
+      date: "Apr. 2024 – Present",
+      desc: "Working in the Xbox Games Technology Group on gameplay systems in Unreal Engine 5",
+      descBullets: []
+    },
+    {
       role: "C++ Developer",
       company: "Morgan Stanley",
       companylogo: require("./assets/images/morgan.jpg"),
